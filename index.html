@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css bootsrap -->
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <!-- end link css bootsrap -->
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- font awesome end  -->
+    <!-- link my style  & respomsive -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- end link my style & responsive-->
+
+    <!--  font grape+nuts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <!-- end font grape + nuts -->
+
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- end font roboto -->
+
+    <!-- link favicon -->
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <!-- end link favicon -->
+    <title>Porfolio</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-light fixed-top nav" style="background-color: rgb(235, 239, 250);">
+        <div class="container-fluid navnav">
+            <a class="navbar-brand brand" href="#"><img src="img/logo.png" alt="">ArulRamadan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img src="img/logo.png" alt="">
+                    <h5 class="offcanvas-title arul-tittle" id="offcanvasNavbarLabel">ArulRamadan</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" aria-current="page" href="#hero-section">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="#portfolio">My Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="#testimoni">Testimoni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+    <div class="container-fluid" id="hero-section" style="background-color: rgb(235, 239, 250);">
+        <div class="col-lg-12 header">
+            <div class="hero-img">
+                <div class="judul">
+                    <p class="hello">HELLO</p>
+                    <div class="nama">
+                        <p class="im">I'M</p>
+                        <h1>HAERUL <br>RAMADAN</h1>
+                        <P class="propesi">Front End Developer</P>
+                        <!-- button download -->
+                        <a href="pdf/Haerul_Resume.pdf" target="_blank" class="download" download="Download Cv">
+                            <button type="submit" class="fw-bold">DOWNLOAD CV</button>
+                        </a>
+                        <!-- button download end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end hero section -->
+
+
+
+    <!--section about me -->
+    <div class="container py-5" id="about">
+        <div class="row">
+            <div class="col-lg-12 text-center about-header">
+                <p><span>who i am</span></p>
+                <h3>- ABOUT ME -</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 about-konten text-center">
+                <p>saya seorang anak lulusan sistem informasi yang saat ini sedang tidak bekerja namun menyibukan diri
+                    dengan belajar menjadi junior front end developer dan membuka usaha sablon t-shirt join bersama
+                    teman
+                    saya. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center about-name">
+                <h1>Arul Ramadan</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-6 offset-sm-3 my-resume">
+                <button class="form-control" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    MY RESUME
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- end section about me -->
+
+    <!-- section my resume collapse -->
+    <div class="container resume" id="collapse">
+        <div class="row resume">
+            <div class="col-lg-4 col-md-6 mt-5 pendidikan">
+                <h3>PENDIDIKAN & PEKERJAAN</h3>
+                <div class="smk">
+                    <h5>Tahun 2012 - Tahun 2015</h5>
+                    <h6><span>Teknik Kendaraan Ringan</span><br>SMKN 1 Bojong Genteng</h6>
+                </div>
+                <div class="universitas mt-5">
+                    <h5>Tahun 2017 - Tahun 2021</h5>
+                    <h6><span>Sistem Informasi</span><br>Universitas Nusa Putra</h6>
+                </div>
+                <div class="mersi mt-5">
+                    <h5>Tahun 2018 - Tahun 2021</h5>
+                    <h6><span>Operator Produksi</span><br>PT.Mersi Farma TM</h6>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 kerjaan">
+                <h3>YANG SAYA KERJAKAN</h3>
+                <p>saya bertugas sebagai oeperator produksi yang mempunyai tanggung memncuci botol vial paracetamol
+                    infus dengan menggunakan mesin washing dan melakukan proses sterilisasi botol infus menggunakan
+                    mesin tunnel dengan suhu 350&deg.</p>
+
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 skill">
+                <h3>KETERAMPILAN</h3>
+                <div class="html mb-3"></div>
+                <div class="bahasa d-flex">
+                    <p>HTML</p>
+                    <p>80%</p>
+                </div>
+                <div class="css mb-3"></div>
+                <div class="bahasa d-flex">
+                    <p>CSS3</p>
+                    <p>70%</p>
+                </div>
+                <div class="bootstrap5 mb-3"></div>
+                <div class="bahasa d-flex">
+                    <p>BOOTSTRAP-5</p>
+                    <p>50%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section my resume collapse end -->
+
+    <!-- my portfolio -->
+    <div class="container-fluid py-5" id="portfolio">
+        <div class="row">
+            <div class="col-lg-12 text-center portfolio-header">
+                <p>some works</p>
+                <h3>- MY PORTFOLIO -</h3>
+            </div>
+        </div>
+        <!-- menubar -->
+        <div class="row">
+            <div class="col-12 menu-portfolio">
+                <ul>
+                    <li>All</li>
+                    <li>Portfolio</li>
+                    <li>Ecommerce</li>
+                    <li>Company</li>
+                </ul>
+            </div>
+        </div>
+        <!-- menubar end -->
+
+        <!-- portfolio foto -->
+        <div class="container-fluid py-3">
+            <div class="row toto">
+                <div class="col-lg-4 col-md-6 portfolio-foto">
+                    <figure>
+                        <img src="img/portfolio-1.png" alt="" class="img-fluid ">
+                        <figcaption class="caption text-center mt-3">
+                            <span>Slicing</span>
+                            <p>Company Profile</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-foto soon">
+                    <figure>
+                        <img src="img/portfolio-2.png" alt="" class="img-fluid ">
+                        <figcaption class="caption text-center mt-3">
+                            <span>Slicing</span>
+                            <p>Portfolio Personal</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-foto soon">
+                    <div class="coming-soon">
+                        <h1>COMING SOON !!!</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-foto soon">
+                    <div class="coming-soon">
+                        <h1>COMING SOON !!!</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-foto soon">
+                    <div class="coming-soon">
+                        <h1>COMING SOON !!!</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-foto soon">
+                    <div class="coming-soon">
+                        <h1>COMING SOON !!!</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- portfolio foto end  -->
+    </div>
+    <!-- end my portfolio -->
+
+    <!-- testimoni -->
+    <div class="container" id="testimoni">
+        <div class="row">
+            <div class="col-lg-12 text-center header-testimoni">
+                <span>People Say</span>
+                <h3>- TESTIMONIALS -</h3>
+            </div>
+
+            <!-- carousel -->
+            <div class="container-fluid  py-5">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/testimoni-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/testimoni-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- carousel end  -->
+            </div>
+        </div>
+    </div>
+    <!-- testimoni end -->
+
+    <!-- teknologi -->
+    <div class="container-fluid list-teknologi">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 teknologi text-center py-3">
+                <img src=" img/html.png" alt="">
+                <img src="img/js.png" alt="">
+                <img src="img/bootstrap.png" alt="">
+                <img src="img/tailwind.png" alt="">
+                <img src="img/css.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- teknologi end -->
+
+    <!-- kontak & alamat -->
+    <div class="container-fluid bg-dark py-5" id="contact">
+        <div class="container">
+            <div class="col-lg-12 text-center biodata-header">
+                <span>get in touch</span>
+                <h3>- CONTACT -</h3>
+            </div>
+            <!-- isi biodata -->
+            <div class=" biodata col-lg-12">
+                <div class="row align-items-center py-5">
+                    <!-- alamat -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" col-lg-12 col-md-12 alamat">
+                            <p>Jln.Pasir Angin 248 Bojonggenteng</p>
+                            <p>Kab. Sukabumi Prov.Jawa Barat</p>
+                            <p>Kde Pos 43353</p><br><br>
+                            <p>Email : <br><br> haerulramadan020@gmail.com</p>
+                        </div>
+                    </div>
+                    <!-- maps -->
+                    <div class=" col-lg-8 col-md-6">
+                        <div class="col-lg-10 maps offset-lg-1 col-md-12">
+                            <iframe
+                                src="
+                            https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63384.34340967379!2d106.6867734344928!3d-6.8279005065251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e682d7d3fc0c147%3A0x879f390fba227823!2sKec.%20Bojong%20Genteng%2C%20Kabupaten%20Sukabumi%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1649759002528!5m2!1sid!2sid"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" class="img-maps img-fluid">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- isi biodata end -->
+        </div>
+    </div>
+    <!-- kontak & alamat -->
+
+    <!-- footer -->
+    <div class="container-fluid py-3 bg-dark">
+        <footer class="text-center footer">
+            <p class="text-light">
+                @copyright arulcode 2022
+            </p>
+        </footer>
+    </div>
+    <!-- footer end  -->
+
+    <!-- back to up -->
+    <a href="#hero-section" class="back-to">
+        <i class="fa fa-circle-arrow-up fa-2x  back"></i>
+    </a>
+    <a href="https://web.telegram.org/k/" target="_blank" class="to-wa">
+        <i class="fa-brands fa-telegram fa-2x icon-tele"></i>
+    </a>
+    <!-- back top up end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap.js -->
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/popper.min.js"></script>
+    <!-- end bootstrap.js -->
+</body>
+
+</html>
