@@ -29,6 +29,32 @@
   }
 }
 
+/* tampilan handphone lanscape  */
+@media screen and (max-width: 767px) {
+  #collapse .resume {
+    text-align: center;
+  }
+  .alamat p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  figure .pertama {
+    text-align: center;
+  }
+  .back-to .back {
+    bottom: 3%;
+    right: 2%;
+    color: orange;
+  }
+  .to-wa .icon-tele {
+    bottom: 15%;
+    right: 2%;
+    position: fixed;
+    z-index: 999;
+  }
+}
+
 /* tampilan sm atau hanphone */
 @media screen and (max-width: 500px) and (min-width: 480px) {
   /* hero section */
@@ -75,25 +101,27 @@
   }
 }
 
-/* ukuran xsm */
-@media screen and (max-width: 480px) {
+/* ukuran xsm handphone potret */
+@media screen and (max-width: 381px) {
   /* hero section */
   .header .hero-img {
-    background-position-x: 100%;
+    /* background-position-x: 100px;
     background-position-y: 100%;
-    width: 100%;
+    width: 200px; */
+    background-size: cover;
+    background-position: center;
   }
   .hero-img .judul {
     line-height: 7px;
-    top: 65%;
-    left: 12%;
+    top: 70%;
+    left: 5%;
     text-align: center;
   }
   .nama h1 br {
     display: none;
   }
   .nama h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 35px;
     letter-spacing: 5px;
   }
@@ -109,12 +137,28 @@
     width: 100%;
   }
   /* section alamat & maps */
+  .teknologi img {
+    width: 5%;
+  }
   .biodata .alamat {
     text-align: center;
     margin-bottom: 40px;
   }
   .alamat p {
-    font-size: 21px;
-    letter-spacing: 4px;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .back-to .back {
+    position: fixed;
+    z-index: 999;
+    bottom: 3%;
+    right: 2%;
+    color: orange;
+  }
+  .to-wa .icon-tele {
+    bottom: 10.5%;
+    right: 2%;
+    position: fixed;
+    z-index: 999;
   }
 }
