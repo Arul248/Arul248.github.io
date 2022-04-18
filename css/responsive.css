@@ -30,15 +30,18 @@
 }
 
 /* tampilan sm atau hanphone */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 480px) {
   /* hero section */
   .header .hero-img {
-    background-position-x: 90%;
-    background-position-y: 100%;
+    background-position-x: 100%;
+    background-position-y: 150%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
   }
   .hero-img .judul {
     line-height: 7px;
-    top: 70%;
+    top: 50%;
     left: 12%;
     text-align: center;
   }
@@ -46,7 +49,51 @@
     display: none;
   }
   .nama h1 {
-    font-size: 40px;    
+    font-size: 40px;
+    line-height: 35px;
+    letter-spacing: 5px;
+  }
+  .nama .download button {
+    width: 35%;
+    height: 40px;
+  }
+  /* sectio my resume */
+  #collapse .resume {
+    text-align: center;
+  }
+  .portfolio-foto figure img {
+    width: 100%;
+  }
+  /* section alamat & maps */
+  .biodata .alamat {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .alamat p {
+    font-size: 21px;
+    letter-spacing: 4px;
+  }
+}
+
+/* ukuran xsm */
+@media screen and (max-width: 480px) {
+  /* hero section */
+  .header .hero-img {
+    background-position-x: 100%;
+    background-position-y: 100%;
+    width: 100%;
+  }
+  .hero-img .judul {
+    line-height: 7px;
+    top: 65%;
+    left: 12%;
+    text-align: center;
+  }
+  .nama h1 br {
+    display: none;
+  }
+  .nama h1 {
+    font-size: 40px;
     line-height: 35px;
     letter-spacing: 5px;
   }
