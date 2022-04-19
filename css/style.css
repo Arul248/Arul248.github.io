@@ -200,7 +200,7 @@ span p {
 .menu-portfolio ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .menu-portfolio ul li {
   margin: 0 20px;

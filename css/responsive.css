@@ -133,6 +133,9 @@
   .portfolio-foto figure img {
     width: 100%;
   }
+  .menu-portfolio ul li {
+    margin: 10px;
+  }
   /* section alamat & maps */
   .teknologi img {
     width: 5%;
